@@ -1,17 +1,17 @@
 class Wekactl < Formula
   desc "Command-line tool for managing WEKA clusters and filesystems"
   homepage "https://weka.io/"
-  version "0.96.2"
+  version "0.96.3"
   license "WEKA Binary Code License"
 
   on_macos do
     on_arm do
-      url "https://weka.github.io/goweka/macos/wekactl_0.96.2_darwin_arm64.tar.gz"
-      sha256 "3da08ec48cd3d9baf65414257979b3766bca89f5e1e1004e3ba1891ebd6f6984"
+      url "https://weka.github.io/goweka/macos/wekactl_0.96.3_darwin_arm64.tar.gz"
+      sha256 "77bb5e65fda96623dacb778354cae25e797286e390d0d041ac27f66d0443f04e"
     end
     on_intel do
-      url "https://weka.github.io/goweka/macos/wekactl_0.96.2_darwin_amd64.tar.gz"
-      sha256 "7f74ddc41585ad1a4d8c5578fae7fd925d619866c0f82eb0d36a070c9ab90042"
+      url "https://weka.github.io/goweka/macos/wekactl_0.96.3_darwin_amd64.tar.gz"
+      sha256 "46b7cd2f3e479c4d4ac67ddbeff68c15320b6ca7451dda94c9c45f7fb19ef5a4"
     end
   end
 
